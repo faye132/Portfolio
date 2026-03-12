@@ -104,15 +104,14 @@ socials.forEach(social => {
 //==========---------- 🐾  About Section - Story Section  🐾 ----------==========
 const story = `
 My journey with technology began early. When I was eight years old, I was introduced to computers and the fundamentals of electrical engineering. What started as curiosity quickly became a constant presence in my life.
-As I grew, that curiosity pushed me outward. I explored IT, networking, security, and eventually software development in 2022. Software was different. It gave me a space where logic and creativity could meet,
-where structure and expression could coexist. I am entirely self-taught. That freedom shaped how I learn and how I build. 
 
-Rather than following a single path, I developed my own patterns, workflows, and design language. I began with frontend development, then moved naturally into backend systems to understand what was happening beneath the surface.
-From there, full-stack development followed.
+As I grew, that curiosity pushed me outward. I explored IT, networking, security, and eventually software development in 2022. Software was different. It gave me a space where logic and creativity could meet, where structure and expression could coexist. I fell in love with the idea of creating something from nothing. I am entirely self-taught, and that freedom shaped how I learn and how I build.
 
-Design was never an afterthought. UI and UX became part of the same conversation, shaping how systems feel as much as how they function. Curiosity carried me further, into authentication, 
-security concepts, and eventually the creation of my own authentication engine. This portfolio exists to show that programming is one of the tools I use to think, explore, and create.
-I am still learning, still evolving, and intentionally so. What you see here is not a destination, but a snapshot of a process that continues to unfold.
+Rather than following a single path, I developed my own patterns, workflows, and design language. I began with frontend development, then moved naturally into backend systems to understand what was happening beneath the surface. From there, full-stack development followed, connecting all the pieces into cohesive systems. My passion for learning and curiosity allowed me to keep peeling back the layers, discovering what lay beneath.
+
+Design was never an afterthought. UI and UX became part of the same conversation, shaping how systems feel as much as how they function. Curiosity carried me further, into authentication, security concepts, and eventually the creation of my own authentication engine.
+
+This portfolio exists to show that programming is one of the tools I use to think, explore, and create. I am still learning, still evolving, and intentionally so. What you see here is not a destination, but a snapshot of a process that continues to unfold.
 `;
 const storyContainer = document.querySelector('.s2__container__story');
 const storyValue = document.createElement("p");
