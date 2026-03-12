@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <main class="main">
+    <!-- 🐾 Sidebar Button 🐾 -->
+    <button class="sidebar__toggle"><i class="fa fa-bars"></i></button>
+    <!-- 🐾 Sidebar Section 🐾 -->
+    <aside class="sidebar">
+       <!-- 🐾 Sidebar Header 🐾 -->
+      <div class="navigation__header"><p class="navigation__header__logo">Jesse</p></div>
+      <!-- 🐾 Sidebar Links 🐾 -->
+        <ul class="links"></ul>
+        <!-- 🐾 Sidebar Social Container 🐾 -->
+        <div class="socials__container">
+          <!-- 🐾 Socials 🐾 -->
+          <ul class="socials"> </ul>
+        </div>
+    </aside>
+
+    <!-- 🐾 Section One 🐾 -->
+    <section class="section__one section" id="home">
+      <!-- 🐾 Section One Container - 01 🐾 -->
+      <article class="s1__container__01">
+        <div class="image__container">
+        <img src="./public/Avatar.jpg" width="400" height="400" />
+      </div>  
+      </article>
+      <!-- 🐾 Section One Container - 02 🐾 -->
+      <article class="s1__container__02">
+         <h1>Jesse Harrison</h1>
+         <h3>I’m a Enthusiast Full stack Engineer</h3>
+         <p>With a passion to create and bring my ideas to life</p>
+      </article>
+    </section>
+
+    <!-- 🐾 Section Two 🐾 -->
+    <section class="section__two section" id="about">
+      <!-- 🐾 Section Two Container - 01 🐾 -->
+      <article class="s2__container__01">
+        <div class="image__container">
+          <img src="./public/Avatar.jpg" width="400" height="400" />
+        </div>  
+      </article>
+      <!-- 🐾 Section Two - Story Container 🐾 -->
+      <article class="s2__container__02">
+        <div class="s2__container__header"><h3>My Programming Story</h3></div>
+        <div class="s2__container__story"></div>
+      </article>
+      <!-- 🐾 Section Two - Skills Container 🐾 -->
+      <article class="s2__container__03">
+          <div class="s2__container__header"><h3>My Skills</h3></div>
+        <div class="s2__container__skills"><ul class="skills"></ul></div>
+      </article>
+    </section> 
+    
+    <!-- 🐾 Section Three 🐾 -->
+    <section class="section__three section" id="projects">
+      <!-- 🐾 Section Three - Desktop Project Image Container 🐾 -->
+      <article class="s3__container__01"><div class="project__image__container desktop__container"> </div></article>
+      <!-- 🐾 Section Three - Mobile Project Image Container 🐾 -->
+      <article class="s3__container__02"><div class="project__image__container mobile__container"></div></article>
+      <!-- 🐾 Section Three - Project Infomation Container 🐾 -->
+      <article class="s3__container__03">
+         <div class="s3__container__03__header">
+          <button class="last__project"><i class="fa-solid fa-arrow-left"></i></button>
+          <h3 class="projects__title"></h3>
+          <button class="next__project"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="project__about__container"></div>
+      </article>
+    </section> 
+
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
