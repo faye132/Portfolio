@@ -224,12 +224,12 @@ ul {list-style: none;}
   .s1__container__02 {align-content: center;}
   .s1__container__02 h1 {font-size: 3.2rem;}
   .s1__container__02 h3 {font-size: 1.5rem;}
-  .s1__container__02 p {font-size: 1.3rem;}
+  .s1__container__02 p {font-size: 1.2rem;}
 }
 @media screen and (min-width:1024px){
   .s1__container__02 h1 {font-size: 3.8rem;}
   .s1__container__02 h3 {font-size: 1.9rem;}
-  .s1__container__02 p {font-size: 1.3rem;}
+  .s1__container__02 p {font-size: 1.2rem;}
 }
 
 /* 🐾 Section Two 🐾 */
@@ -344,8 +344,8 @@ ul {list-style: none;}
 @media screen and (min-width:1024px){
   .s2__container__header h3 {font-size: 1.8rem;}
   .s2__container__skills p {font-size: 1.5rem;}
-  .s2__container__story p {font-size: 1.3rem;}
-  .s2__container__skills li {font-size: 1.3rem;}
+  .s2__container__story p {font-size: 1.2rem;}
+  .s2__container__skills li {font-size: 1.2rem;}
 }
 
 /* 🐾 Section Three 🐾 */
@@ -474,6 +474,6 @@ ul {list-style: none;}
    .s3__container__03 h3 {font-size: 1.5rem}
 }
 @media screen and (min-width:1024px){
-  .project__about__container p {font-size: 1.3rem;}
+  .project__about__container p {font-size: 1.2rem;}
   .s3__container__03 h3 {font-size: 1.8rem;}
 }
